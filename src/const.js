@@ -1,21 +1,21 @@
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
-export const SITE_NAME = 'Название сайта';
+export const SITE_NAME = 'Автохолдинг';
 // Юр лицо
-export const LEGAL_ENTITY = 'ООО «Юридическое название»';
+export const LEGAL_ENTITY = 'ООО «Автохолдинг»';
 // ИНН
 export const LEGAL_INN = '1234567890';
 // Город
-export const LEGAL_CITY = 'г. Город';
+export const LEGAL_CITY = 'г. Краснодар';
 // где? в Городе
-export const LEGAL_CITY_WHERE = 'Городе';
+export const LEGAL_CITY_WHERE = 'Краснодаре';
 // Описание сайта по умолчанию
 export const SITE_DESCR = 'Официальный дилерский центр';
 // Телефон по умолчанию
-export const PHONE = '+7 (999) 000-00-00';
+export const PHONE = '+7 (861) 279-59-79';
 // Бренд
-export const BRAND = 'Baic';
+export const BRAND = 'VGV';
 // Конечное время для таймера
 //string 2024-04-26 or 2024-04-26 23:59:59 or December 31 2015 or December 31 2015 23:59:59 GMT+02:00
 export const TIMER_ENDTIME = '';
@@ -24,7 +24,7 @@ export const MARQUEE = {title: 'Тотальная распродажа до', d
 // Ссылка яндекс-виджета
 export const LINK_WIDGET = 'https://yandex.ru/map-widget/v1/-/';
 // Ссылка организации для виджета
-export const LINK_WIDGET_ORGNIZATION = '';
+export const LINK_WIDGET_ORGNIZATION = 'CHULMSo-';
 // Ссылки под хедером
 export const LINKS_MENU = [
 	{url: 'cars/', name: 'Авто в наличии'},
