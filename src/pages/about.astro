@@ -1,0 +1,36 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import {SITE_NAME, LEGAL_ENTITY, LEGAL_INN, LEGAL_CITY} from '@/const';
+import Button from '@/components/Button/Button.astro';
+---
+
+<PageLayout
+    h1="История бренда VGV"
+    title="История бренда VGV"
+    description="VGV является подразделением компании SINOTRUK и специализируется на легковых и легких коммерческих автомобилях."
+    breadcrumb={[{name:"История бренда VGV",href:""}]}
+>
+    <div class="about-brand__text">
+        <p>VGV является подразделением компании SINOTRUK и специализируется на легковых и легких коммерческих автомобилях. SINOTRUK - крупнейший и самый известный производитель грузовых автомобилей в Китае, который является признанным лидером отрасли по продаже и экспорту. SINOTRUK выпускает широкий спектр грузовых автомобилей, включая пикапы, фургоны, самосвалы, тягачи и другие виды коммерческой техники. <br>Продукция компании экспортируется во многие страны мира, включая Россию.</p>
+        <p><b>Компания SINOTRUK ведет свою историю с 1930 года.</b> За почти 100 лет своего существования компания получила множество наград, занимает 60-е место в списке «100 самых ценных брендов Китая» и развилась до мирового лидера автомобильной индустрии. На текущий момент компания имеет 37 заводов по производству автомобилей и компонентов в Китае, а также 25 сборочных площадок по всему миру, последние <b>18 лет является лидером по экспорту грузовых автомобилей в КНР.</b></p>
+    </div>
+
+    <div class="flex items-center gap-20 justify-center leading-none text-3xl mt-20">
+        <div class="flex items-end gap-3">с <span class="text-7xl font-bold text-[#a42523] !leading-none">1930</span> года</div>
+        <div class="flex items-end gap-3">
+            <div class="">в <span class="text-7xl font-bold text-[#a42523] !leading-none">100</span></div>
+            <div class="">самых ценных <br>брендах Китая</div>
+        </div>
+        <div class="flex items-end gap-3"><span class="text-7xl font-bold text-[#a42523] !leading-none">37</span> заводов</div>
+    </div>
+
+    <div class="flex justify-center mt-20">
+        <a href="https://vgvmotor.ru/upload/docs/vgv-sinotruk.pdf" class="btn w-fit !m-0" download>Презентация</a>
+    </div>
+
+    <div class="text-center mt-20">
+        <p>Бренд VGV можно интерпретировать, как <b>Very Good Vehicle</b> (очень хороший автомобиль). <br>Используя собственную инфраструктуру полного цикла производства и богатые традиции проектирования, <br>испытания и эксплуатации крупных автомобилей, компания SINOTRUK воплотила в бренде VGV все качества, <br>присущие легковому автомобилю, и добавила <b>сильные стороны утилитарных машин</b>.
+        </p>
+    </div>
+
+</PageLayout>
