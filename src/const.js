@@ -1,11 +1,11 @@
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
-export const SITE_NAME = 'Автохолдинг «Тургеневский»';
+export const SITE_NAME = 'Автохолдинг Тургеневский';
 // Юр лицо
 export const LEGAL_ENTITY = 'ООО «Автохолдинг»';
 // ИНН
-export const LEGAL_INN = '1234567890';
+export const LEGAL_INN = '2312187887';
 // Город
 export const LEGAL_CITY = 'г. Краснодар';
 // где? в Городе
