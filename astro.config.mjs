@@ -40,6 +40,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://vgv.alexsab.ru',
+	site: 'https://vgv-krd.ru',
 	base: "/"
 });
